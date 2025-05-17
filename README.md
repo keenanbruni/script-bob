@@ -75,7 +75,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Project Link: [https://github.com/yourusername/script-bob](https://github.com/yourusername/script-bob)
+Project Link: [https://github.com/keenanbruni/script-bob](https://github.com/keenanbruni/script-bob)
 
 ---
 
