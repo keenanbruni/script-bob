@@ -6,7 +6,7 @@ ScriptBob is a Chrome DevTools extension that allows you to edit the HTML of any
 
 ## Features
 
-- **Natural Language Editing**: Type what you want to change in plain English (e.g., "delete all span.sc-keuYuY.fpjkiy" or "mock-up a footer")
+- **Natural Language Editing**: Type what you want to change in plain English (e.g., "delete all spans under class .sc-keuYuY.fpjkiy" or "mockup a footer")
 - **AI-Powered Changes**: Uses your preferred LLM API to generate the JavaScript needed to make your requested changes
 - **Multiple LLM Support**: Works with OpenAI, Anthropic, or any custom LLM API that follows a similar format
 - **Interactive Chat Interface**: Simple chat UI where you can give commands and see results
