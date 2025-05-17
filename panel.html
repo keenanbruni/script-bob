@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ScriptBob</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>ScriptBob</h1>
+      <button id="settings-btn">⚙️ Settings</button>
+    </div>
+    
+    <div id="settings-panel" class="hidden">
+      <h2>LLM API Settings</h2>
+      <div class="setting-group">
+        <label for="api-provider">API Provider</label>
+        <select id="api-provider">
+          <option value="openai">OpenAI</option>
+          <option value="anthropic">Anthropic</option>
+          <option value="custom">Custom</option>
+        </select>
+      </div>
+      <div class="setting-group">
+        <label for="api-key">API Key</label>
+        <input type="password" id="api-key" placeholder="Your API key">
+      </div>
+      <div class="setting-group">
+        <label for="api-endpoint">API Endpoint (for custom providers)</label>
+        <input type="text" id="api-endpoint" placeholder="https://api.example.com/v1/chat">
+      </div>
+      <div class="setting-group">
+        <label for="model">Model</label>
+        <input type="text" id="model" placeholder="gpt-4">
+      </div>
+      <button id="save-settings">Save Settings</button>
+    </div>
+
+    <div id="chat-container">
+      <div id="messages"></div>
+      <div class="input-area">
+        <textarea id="user-input" placeholder="Enter HTML editing commands here (e.g., 'delete all span.sc-keuYuY.fpjkiy' or 'mock-up a footer')"></textarea>
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="panel.js"></script>
+</body>
+</html>
